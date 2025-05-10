@@ -4,7 +4,7 @@ import { Header } from '../components/Header.jsx';
 import { Footer } from '../components/Footer.jsx';
 import MovieList from "../components/MovieList.jsx";
 import Movie from "../components/Movie.jsx";
-import { movies } from '../data/Data.js';
+import { movies } from '../Data/Data.jsx';
 
 export const Movies = () => {
     const [selectedMovie, setSelectedMovie] = useState(null);
